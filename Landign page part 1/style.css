@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    min-block-size: 100px;
+    background-color: blue;
+    min-height: 100px;
+
+}
+.logo{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-left: 90px; */
+}
+ul, li
+{
+    list-style: none;
+    display:flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.icon{
+    list-style: none;
+    display:flex;
+    color: white;
+    position:relative;
+    padding-right: 90px;
+}
+.space{
+    list-style: none;
+    display:flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav {
+    list-style: none;
+    display:flex;
+    align-items: center;
+    /* position:absolute; */
+   
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+
+    
+    /* margin:auto; */
+    /* height:70px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative; */
+
+}
+
+.navbar__menu__item {
+    margin-right: 30px;
+    font-size: 20px;
+
+}
+
+.header2{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    
+ 
+}
+section {
+    
+    
+    width: 40%;
+    border-radius: 8px;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.name{
+    color:white;
+}
+
+.picture{
+    margin-left: 20px;
+    margin-right: 30px;
+    width: 100%;
+  
+}
+
+.text{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.span1{
+    letter-spacing: 9px;
+    font-size: 50px;
+    font-weight: lighter;
+    
+}
+
+h1{
+    font-size: 80px;
+}
+.span2{
+    font-weight: lighter;
+}
+.span3{
+    font-weight: bold;
+}
+button{
+    background-color: transparent;
+    border: 1px solid white;
+    height: 40px;
+    width: 100px;
+   color: white;
+}
