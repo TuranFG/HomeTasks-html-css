@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #DEE2E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.circle{
+    border-radius: 50%;
+    background-color:  #e8edf3;
+    position: absolute; 
+    z-index: -1;
+}
+.c1{
+    width: 200px;
+    height: 200px;
+    right:300px;
+    top:20px;
+}
+.c2{
+    
+    left:250px;
+    bottom:20px;
+    width: 280px;
+    height: 280px;
+}
+.card{
+    border-radius: 15px;
+    background-color:  #eff0f2;
+    width: 1100px;
+    height: 490px;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    box-shadow: 0px 35px 20px rgba(198, 205, 235, 0.6);
+}
+h2{
+    margin-top: 50px;
+    color: rgb(5, 5, 48);
+    margin-left: 45px;
+}
+.menu{
+    margin-left: 45px;
+    margin-top: 15px;
+}
+.menu_item{
+    margin-right: 10px;
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(5, 5, 48);
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px;
+    
+
+}
+.box{    
+    height: 310px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: white;
+}
+.main_pic{
+    height: 160px;
+    width: 270px;
+    border-radius: 20px;
+    margin:14px;
+}
+.other_pic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:14px;
+}
+.pic_box{
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:14px;
+    color: rgb(5, 5, 48);
+}
+.info{
+    font-size: 13px;
+}
+.p_dec{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.box:hover{
+    color:white;
+    opacity: 0.7;
+    transition-duration: 0.5;
+}
+h2:hover{
+    font-size: 30px;
+}
+.menu_item:hover{
+    font-weight: bolder;
+}
