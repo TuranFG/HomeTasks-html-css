@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(210, 46%, 95%);
+}
+.container{
+    margin: auto;
+    width: 80%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.boxes{
+    display:grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "a a b c"
+        "d e e c";
+    box-shadow: 20px 20px 20px #d9e1ec;     
+}
+.box{
+    height: 380px; 
+    border-radius: 10px;
+}
+.box:first-child{
+    grid-area: a;
+    background-color: hsl(263, 55%, 52%);
+    position: relative;
+    background-image: url(./Images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 400px 5px; 
+}
+.box:nth-child(2){
+    grid-area: b;
+    background-color: hsl(217, 19%, 35%);
+}
+.box:nth-child(3){
+    grid-area: c;
+    height: 790px;
+    background-color: white;
+}
+.box:nth-child(4){
+    grid-area: d;
+    background-color: white;
+}
+.box:nth-child(5){
+    grid-area: e;
+    background-color: hsl(219, 29%, 14%);
+}
+
+.box_content{
+    margin:35px;
+    /* width: 86%; */
+    margin-top: 20px;
+    line-height: 25px;
+    
+       
+
+}
+.box_image{
+    border-radius: 50%;
+    border: 3px solid;
+    height: 50px;
+    width: 50px;
+    
+}
+.box1{
+    border-color: hsl(263, 69%, 66%);
+    background-image: url(./Images/image-daniel.jpg);
+    background-position: center;
+    
+}
+.box1_content{
+    color: white;
+}
+.box_header{
+    display:flex;
+    gap:10px;
+     
+}
+.box_title{
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+.name_desc{
+    opacity: 50%;
+}
+
+.box_info{
+    font-size: 20px;
+}
+
+.detailed_info{
+    opacity: 70%;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.box2{
+    border-color: rgb(173, 173, 173);
+    background-image: url(./Images/image-jonathan.jpg);
+    background-position: center;
+    
+}
+
+.box3{
+    border-color: white;
+    background-image: url(./Images/image-kira.jpg);
+    background-position: center;
+    
+}
+.box4{
+    border-color: white;
+    background-image: url(./Images/image-jeanette.jpg);
+    background-position: center;
+    
+}
+
+.box5{
+    border-color:  hsl(263, 55%, 52%);
+    background-image: url(./Images/image-patrick.jpg);
+    background-position: center;
+ 
+}
+.box5_content{
+    color:white;
+}
