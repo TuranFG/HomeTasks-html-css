@@ -1,0 +1,41 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+.header_sections {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  color: white;
+}
+
+.header_sections_menu, .header_sections_menu_list,
+.header_sections_menu_list_items {
+  display: inline-block;
+}
+
+.sub_menu {
+  display: none;
+}
+
+ul, li, a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.first_section {
+  background-color: #01095c;
+}
+
+.header_sections_menu_list_items_link {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
